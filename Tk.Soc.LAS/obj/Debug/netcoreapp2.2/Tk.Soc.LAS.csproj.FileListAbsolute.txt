@@ -15,10 +15,10 @@ D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\bin\Debug\netcoreapp2.2\Tk.Soc.LAS.
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\bin\Debug\netcoreapp2.2\Tk.Soc.LAS.runtimeconfig.dev.json
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\bin\Debug\netcoreapp2.2\Tk.Soc.LAS.dll
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\bin\Debug\netcoreapp2.2\Tk.Soc.LAS.pdb
-D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.csprojAssemblyReference.cache
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.AssemblyInfoInputs.cache
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.AssemblyInfo.cs
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.csproj.CoreCompileInputs.cache
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.dll
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.pdb
 D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\obj\Debug\netcoreapp2.2\Tk.Soc.LAS.genruntimeconfig.cache
+D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\bin\Debug\netcoreapp2.2\appsettings.json
