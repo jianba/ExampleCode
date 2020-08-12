@@ -8,7 +8,9 @@ namespace Tk.Soc.LAS
 {
     public class TkSocLASDbContext : DbContext
     {
-        public DbSet<Company> Companys { get; set; }
+        // public DbSet<Company> Companys { get; set; }
+
+        public DbSet<t_svr_proc_all_history_bak> t_svr_proc_all_history_bak { get; set; }
 
         private IConfiguration configuration;
 
@@ -17,12 +19,13 @@ namespace Tk.Soc.LAS
             configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory
                 .GetCurrentDirectory())
-                .AddJsonFile(@"D:\WorkCode\2020\0811\ExampleCode\Tk.Soc.LAS\appsettings.json").Build();
+                .AddJsonFile("appsettings.json").Build();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql(configuration.GetConnectionString("Default"));
+            //optionsBuilder.UseMySql(configuration.GetConnectionString("ConnectionDatabaseStr"));
         }
     }
 }

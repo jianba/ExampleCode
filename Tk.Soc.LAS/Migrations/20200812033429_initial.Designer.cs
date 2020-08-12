@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Tk.Soc.LAS;
 
 namespace Tk.Soc.LAS.Migrations
 {
     [DbContext(typeof(TkSocLASDbContext))]
-    partial class TkSocLASDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200812033429_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

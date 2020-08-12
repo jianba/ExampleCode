@@ -14,7 +14,11 @@ namespace Tk.Soc.LAS
     {
         public static void Main(string[] args)
         {
-            LocalTestHelper.OnStart();
+            //LocalTestHelper.OnStart();
+            //DbHelper.GetCompanyDataTest();
+            DbHelper.GetCompanyDataByLimit(3000, 4000);
+           // Console.WriteLine(DbHelper.DelectAllCompanyData());
+            //Console.WriteLine(DbHelper.InsertDataIntoMysql(30000));
         }
     }
 }
